@@ -15,7 +15,11 @@ if(isset($_SESSION["uid"])){
 		<script src="js/bootstrap.min.js"></script>
 		<script src="main.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<style></style>
+		<style>
+			/* .link.hover {
+
+			} */
+		</style>
 	</head>
 <body>
 <div class="wait overlay">
@@ -81,7 +85,7 @@ if(isset($_SESSION["uid"])){
 										<label for="email">Password</label>
 										<input type="password" class="form-control" name="password" id="password" required/>
 										<p><br/></p>
-										<a href='./reset_pass.php' style="color:black; text-decoration:none;"">Forget password</a>
+										<a href='./reset_pass.php' style="color:black; text-decoration:none;"" <!--class="link"-->>Forget password</a>
 										<p><br/></p>
 										<input type="submit" class="btn btn-warning" value="Login">
 										<a href="customer_registration.php?register=1" style="color:white; text-decoration:none;">Create Account Now</a>
